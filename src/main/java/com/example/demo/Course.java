@@ -56,20 +56,19 @@ public class Course {
 
     @NotNull
 
-    @Size(min=4)
-    private String title
+    @Size(min = 4)
+    private String title;
 
     @NotNull
-    @Size(min=3)
+    @Size(min = 3)
     private String instructor;
 
     @NotNull
-    @Size(min=10)
+    @Size(min = 10)
     private String description;
 
     @NotNull
     @Min(3)
     private int credit;
-
-public class Course {
 }
+
